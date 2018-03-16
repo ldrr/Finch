@@ -9,7 +9,7 @@
 @end
 
 @implementation FISound
-@dynamic isPlaying, loop, gain, pitch, duration;
+@dynamic isPlaying, loop, gain, pitch, duration, position;
 
 #pragma mark Initialization
 

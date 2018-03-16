@@ -94,5 +94,11 @@
     _loop = yn;
 }
 
+- (void) setPosition: (float) value
+{
+    float sourcePosAL[] = {value, 0.0f, 0.0f};
+    alSourcefv(_handle, AL_POSITION, sourcePosAL);
+    _pitch = value;
+}
 
 @end

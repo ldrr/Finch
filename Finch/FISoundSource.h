@@ -8,6 +8,7 @@
 @property(assign, nonatomic) BOOL loop;
 @property(assign, nonatomic) float gain;
 @property(assign, nonatomic) float pitch;
+@property(assign, nonatomic) float position;
 
 - (id) initWithSampleBuffer: (FISampleBuffer*) buffer error: (NSError**) error;
 
